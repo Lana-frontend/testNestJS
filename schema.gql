@@ -1,0 +1,13 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type KeyDto {
+  key: String!
+  warehouse: Int!
+}
+
+type Query {
+  hello: String!
+  keys: [KeyDto!]!
+}
